@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <title>RoyalCars</title>
+        <style>
+            img{
+                position: fixed;
+                
+                width: 100%;
+                height:100%;
+            }
+            .nav{
+    
+                background-color: none;
+                width: 100%;
+                height: 5%;
+            }
+            .navbar{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border-bottom: 2px outset black;
+                background-color:none;
+                position: fixed;
+                top: 10px;;
+                width:100%;
+                
+            }
+            .n{
+                float: right;
+            }
+            .r{
+                float: left;
+                
+            }
+            .n a{
+                display: block;
+                color: rgb(119, 10, 15);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                
+            }
+            li a:hover:not(.active) {
+                background-color: rgb(164, 167, 167);
+            }
+            .active {
+                background-color: #f8f5f5;
+            }
+ 
+            .cont{
+                background-color:none;
+                height: 95%;
+                width: 100%;
+                position: relative;
+                
+                      
+            }
+            .details {  
+                text-align: center;
+                position:relative;
+                background-color: black;
+                width: 70%;
+                border-radius: 20%;
+                border: 10px outset red;
+                
+            }
+            .first {  
+                text-align: center;
+                position: relative;
+                width: 100px;
+                padding: 30px;
+                display:inline-block;
+                width: 200px;
+                color: blanchedalmond;
+               
+            }
+            .second { 
+                text-align: center;
+                width: 100px;
+                margin-left: 60px;
+                margin-right: 60px;
+                padding: 30px;
+                position:relative;
+                display:inline-block;
+                width: 200px;
+                color: blanchedalmond;
+
+
+            }
+            .third {
+                text-align: center;
+                width: 100px;
+                padding: 30px;
+                position: relative;
+                display:inline-block;
+                width: 200px;
+                color: blanchedalmond;
+                
+                
+            }
+            p{
+            
+                font-size: 20px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .submit{
+                color: rgb(245, 34, 7);
+                font-size: larger;
+                background-color: black;
+                padding: 12px;
+                
+
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="all.jpg">
+            
+            <div class="nav">
+                <b>
+
+                <div class="navbar">
+                    <li class="r" style="color: rgb(212, 9, 9);">Royal Motors(pvt)LTD</li>
+                    <li class="n"><a href="../Admin/Login.php">Admin</a></li>
+                    <li class="n"><a href="../../Index.php" >Login</a></li>
+                    <li class="n"><a href="../help page/help.html">Help</a></li>
+                    <li class="n"><a class="active" href="../Contact/contact.html">Contact</a></li>
+                    <li class="n"><a href="../AboutUs/AboutUs.html">About Us</a></li>
+                    <li class="n"><a href="../Home/Home.html">Home</a></li>
+                </div>
+                </b>
+
+            </div>
+            <center>
+            <div class="cont">
+                <br />
+                <center><h2>BRANCH DETAILS</h2></center>
+                <div class="details">
+                    <div class="first">
+                        <p>NO 125,<br> 
+                        Sadhaham Mw,<br>
+                        Nugegoda.<br>
+                        071-2516197</p>
+
+                    </div>
+                    <div class="second">
+                       <p> NO 45,<br>
+                        Mada Mw,<br>
+                        Galle.<br>
+                        071-5678345</p>
+
+                    </div>
+                    <div class="third">
+                        <p>NO 02,<br>
+                        Kalidasa Road,<br>
+                        Walgama,<br>
+                        Matara.<br>
+                        041-2240564</p>
+
+                    </div>
+                    
+                </div>
+                
+                    <h3 style="color: white; font-size: 20px;">email-royalmotorspvt@gmail.com</h3>
+                    <br>
+                    <br />
+                    <h3 style="color: rgb(245, 243, 243); font-size: 30px;">Feedback</h3>
+                
+                    <textarea rows="6" cols="80" name="comment" 
+                    style="border-radius: 12px; border: 5px outset red; 
+                    ">
+                        ...</textarea><br /><br /><br />
+                    <input type="submit" class="submit"><br /><br /><br />
+                </center>
+            </div>
+        </div>
+    </body>
+</html>

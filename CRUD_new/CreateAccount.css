@@ -1,0 +1,92 @@
+html
+{
+  min-height: 100%;
+  background-image: url(Porsche.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.createaccount
+{
+  width: 420px;
+  height: 460px;
+  background: #000;
+  color: #FFF;
+  top: 50%;
+  left: 22%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border: 3px solid #fb2525;
+}
+
+h1
+{
+  margin: -38px 0;
+  padding: 0px 0 15px;
+  text-align: center;
+  font-size: 26px;
+}
+
+#table1
+{
+  color: #FFF;
+  margin-top: 50px;
+}
+
+.createaccount p
+{
+  font-weight: bold;
+}
+
+
+.createaccount input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height:28px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.createaccount input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0%;
+  width: 200px;
+}
+
+.createaccount input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.createaccount a
+{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.createaccount a:hover
+{
+  color: #ffc107;
+}

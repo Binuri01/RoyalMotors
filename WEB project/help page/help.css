@@ -1,0 +1,112 @@
+html
+{
+  min-height: 100%;
+  background-image: url(Prado.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+img{
+    position: fixed;
+    opacity: 0.5;
+    width: 100%;
+    height:100%;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav{
+    
+    background-color: none;
+    width: 100%;
+    height: 5%;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 2px outset black;
+    background-color:none;
+    position:fixed;
+    top: 10px;;
+    width:100%;
+}
+.n{
+    float: right;
+}
+.n a{
+    display: block;
+    color: rgb(9, 27, 104);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover:not(.active) {
+    background-color: rgb(98, 100, 100);
+}
+.active {
+    background-color: #f8f5f5;
+}
+
+
+.panel{
+    margin:200px;
+    width:300px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #000707;
+    color:#fff;
+    border-radius:4px;
+    border: 5px outset red;
+    
+    
+} .details {  
+    text-align: center;
+    position:relative;
+}
+
+
+
+.first {  
+    text-align: center;
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    display:inline-block;
+}
+.second { 
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    position:relative;
+    display:inline-block;
+
+
+}
+.third {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    display:inline-block;
+    
+}
+
+p{
+
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
